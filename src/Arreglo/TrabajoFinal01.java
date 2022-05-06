@@ -6,11 +6,17 @@ import java.util.Scanner;
 public class TrabajoFinal01 {
 
         public static String [] DeliveryType = {"Carta", "Paquete"};
+        
         public static String [] City = {"Chimbote","Trujillo","Chiclayo","Piura","Tumbes"};
+        // Peso de base de Sobre
         public static double [] WeightBaseLetter = {0.5,0.5,0.5,0.5,0.5};
+        // Peso de Base de Paquete
         public static double [] WeightBasePackage = {1,1,1,1,1};
+        //Costo base de Sobre
         public static double [] CostBaseLetter = {9,12,13,15,18};
+        //Costo base de Paquete
         public static double [] CostBasePackage = {10,15,20,17,19};
+        //Costo Excesivo de Paquete
         public static double [] CostExcessPackage = {1.5,2,2.5,3,3.5};
 
         public static String [] MenuOptions = {"Si", "No"};
